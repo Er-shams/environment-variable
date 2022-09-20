@@ -5,6 +5,14 @@ import Layout from "./components/Loyout.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+    console.log(process.env.Node_Env)
+    console.log(process.env.SECRATE_NAME)
+    // if(process.env.NODE_ENV === "produc"){
+
+    // }
+    // else if(){
+
+    // }
   return (
     <>
       <Router>
